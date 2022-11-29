@@ -15,8 +15,8 @@ header{
 	background-color: #21b6a8;
 }
 header nav ul li a {
-	font-size: 1.2em; 
-	line-height: 2.3em; 
+	font-size: 1.2em;
+	line-height: 2.3em;
 	height: 2.3em;
 	padding: 0px 10px;
 	width: 100%;
@@ -41,15 +41,15 @@ header nav ul li a {
 
  /* footer styles */
  footer{
- background-color: #0D98BA;
+ background-color: #000000;
  text-align: center;
  color: white;
  padding: 20px;
  }
 
  footer ul li a {
-	font-size: 1.2em; 
-	line-height: 2.3em; 
+	font-size: 1.2em;
+	line-height: 2.3em;
 	height: 2.3em;
 	padding: 0px 10px;
 	width: 100%;
