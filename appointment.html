@@ -1,37 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make an Appointment</title>
-    <link rel="stylesheet" href="css/nav.css" type='text/css'/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Insurance</title>
+    <link rel="stylesheet" type="text/css" href="bar.css">
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
 </head>
 <body>
-    <header>
-        <nav>
+  <header>
+    <nav>
+        <div class="menu">
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "about.html">About</a></li>
-                <li><a href = "contact.html">Contact</a></li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-apple"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="html2.html" class="menu-item">Home</a>
+                </li>
+                <li>
+                    <a href="about.html" class="menu-item">About</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="menu-item">Contact</a>
+                </li>
+                <li>
+                    <a href="appointment.html" class="menu-item">Servises</a>
+                </li>
+                <li>
+                    <a href="login.html" class="menu-item">Login</a>
+                </li>
+
+                <li>
+                    <a href="#" id="search">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-shopping-basket"></i>
+                    </a>
+                </li>
             </ul>
-        </nav>
+            <div class="search-form">
+                <form>
+                    <input type="text" name="search" placeholder="Search Your Insurance">
+                </form>
+            </div>
+            <a class="close">
+                <i class="fa fa-times"></i>
+            </a>
+        </div>
+    </nav>
     </header>
     <main>
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <script type="text/javascript">
+          $(document).ready(function () {
+              $('#search').click(function () {
+                  $('.menu-item').addClass('hide-item')
+                  $('.search-form').addClass('active')
+                  $('.close').addClass('active')
+                  $('#search').hide()
+              })
+              $('.close').click(function () {
+                  $('.menu-item').removeClass('hide-item')
+                  $('.search-form').removeClass('active')
+                  $('.close').removeClass('active')
+                  $('#search').show()
+              })
+          })
+      </script>
         <!-- main content-->
-        <h1>appointment.html (appt making page)</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur a
-            dipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad 
-            minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla 
-            pariatur. Excepteur sint occaecat cupidatat non 
-            proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum.
-        </p>
+        <body>
+          <div id="container">
+            <!--This is a division tag for body container-->
+            <div id="body_header">
+              <!--This is a division tag for body header-->
+              <h1>Appointment Request Form</h1>
+
+
+            </div>
+            <form action="login.html" method="post">
+              <fieldset>
+                <legend><span class="number">1</span>Personal Information</legend>
+                <label for="name">Name*:</label>
+                <input type="text" id="name" name="user_name" placeholder="Name" required pattern="[a-zA-Z0-9]+">
+
+                <label for="mail">Email*:</label>
+                <input type="email" id="mail" name="user_email" placeholder="Email" required>
+
+                <label for="tel">Contact Num:</label>
+                <input type="tel" id="tel" placeholder="Include country code" name="user_num">
+
+
+
+              </fieldset>
+
+              <fieldset>
+                <legend><span class="number">2</span>Appointment Details</legend>
+                <label for="appointment_for">Appointment for*:</label>
+                <select id="appointment_for" name="appointment_for" required>
+                  <option value="In-person">In-person</option>
+                  <option value="Virtual">Virtual</option>
+                  <option value="Phone">Phone</option>
+
+                  <option value="couple_date">Date</option>
+                </select>
+                <label for="appointment_description">Appointment Description:</label>
+                <textarea id="appointment_description" name="appointment_description" placeholder=""></textarea>
+                <label for="date">Date*:</label>
+                <input type="date" name="date" value="" required></input>
+                <br>
+                <label for="time">Time*:</label>
+                <input type="time" name="time" value="" required></input>
+                <br>
+                <label for="duration">How Long??(Minutes)</label>
+                <input type="radio" name="duration" value="30" checked> 30
+                <input type="radio" name="duration" value="60"> 60
+                <input type="radio" name="duration" value="90"> 90
+                <input type="radio" name="duration" value="more"> more
+              </fieldset>
+              <button type="submit">Request For Appointment</button>
+            </form>
+          </div>
     </main>
     <footer>
         <ul>
