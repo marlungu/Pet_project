@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/nav.css"/>
     <link rel="stylesheet" href="bar.css"/>
     <link rel="stylesheet" href="css/search.css">
-    <script src="index.js" defer></script>
+    <script src="js/index.js" defer></script>
 
 </head>
 <body>
@@ -16,14 +16,14 @@
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "about.html">About</a></li>
-                <li><a href = "contact.html">Contact</a></li>
+                <li><a href = "html/about.html">About</a></li>
+                <li><a href = "html/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!-- main content-->
-        <!-- <div>
+        <div>
             <h1>index.html (home page)</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur a
@@ -37,25 +37,24 @@
                 proident, sunt in culpa qui officia deserunt mollit
                 anim id est laborum.
             </p>
-        </div> -->
+        </div>
         <div class="form-container">
-            <form id="search-ins">
+            <form action="/html/results.html" method="GET" id="search-ins" >
                 <label for="search">Search:</label>
                 <input type="text" name="search" id="search" />
                 <button name="search_btn">Search</button>
-                <button name="reset" type="reset">Reset</button>
             </form>
-            <div id="app"></div>
         </div>
+        <div id="app"></div>
     </main>
     <footer>
         <ul>
             <li><a href = "index.html">Home</a></li>
-            <li><a href = "about.html">About</a></li>
-            <li><a href = "contact.html">Contact</a></li>
+            <li><a href = "html/about.html">About</a></li>
+            <li><a href = "html/contact.html">Contact</a></li>
         </ul>
         <p>Copyright <script>document.write(new Date().getFullYear());</script> &copy; Zooly</p>
     </footer>
-    <script src="index2.js"></script> 
+    <!-- <script src="/js/results.js"></script> -->
 </body>
 </html>
