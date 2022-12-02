@@ -7,8 +7,8 @@
     <title>Zooly Homepage</title>
     <link rel="stylesheet" href="css/nav.css"/>
     <link rel="stylesheet" href="bar.css"/>
+    <link rel="stylesheet" href="css/search.css">
     <script src="index.js" defer></script>
-
 
 </head>
 <body>
@@ -22,22 +22,31 @@
         </nav>
     </header>
     <main>
-
-</section>
         <!-- main content-->
-        <h1>index.html (home page)</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur a
-            dipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-        </p>
+        <!-- <div>
+            <h1>index.html (home page)</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur a
+                dipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum.
+            </p>
+        </div> -->
+        <div class="form-container">
+            <form id="search-ins">
+                <label for="search">Search:</label>
+                <input type="text" name="search" id="search" />
+                <button name="search_btn">Search</button>
+                <button name="reset" type="reset">Reset</button>
+            </form>
+            <div id="app"></div>
+        </div>
     </main>
     <footer>
         <ul>
@@ -47,5 +56,6 @@
         </ul>
         <p>Copyright <script>document.write(new Date().getFullYear());</script> &copy; Zooly</p>
     </footer>
+    <script src="index2.js"></script> 
 </body>
 </html>
