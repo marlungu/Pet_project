@@ -2,14 +2,14 @@ var ins = [
     {
       "facility":"Banfield Pet Hospital",
       "insurance": "Spot Pet Health Insurance",
-      "toUrl":"https://www.banfield.com/promotions/OWP?utm_source=google&utm_medium=cpc&utm_campaign=%5BOWP%5D+Standalone+-+Northeast+-+NonBrand&utm_content=%5BOWP%5D+Standalone+-+Northeast+-+NonBrand+-+General+-+Phrase&utm_term=animal+insurance&cid=cpc_google&gclid=Cj0KCQiAvqGcBhCJARIsAFQ5ke7PM-eJTiL0UvfyKMRuDQzxoisRsQOkix_ZU4r0kTq1JlIAGvGvRNUaAk_ZEALw_wcB&gclsrc=aw.ds",
-      "appointments":"",
+      "url":"https://www.banfield.com/en",
+      "appointments":"https://www.banfield.com/locations",
       "phone":""
     },
     {
       "facility":"Banfield Pet Hospital",
       "insurance": "Lemonade Pet Health Insurance",
-      "website":"https://www.banfield.com/promotions/OWP?utm_source=google&utm_medium=cpc&utm_campaign=%5BOWP%5D+Standalone+-+Northeast+-+NonBrand&utm_content=%5BOWP%5D+Standalone+-+Northeast+-+NonBrand+-+General+-+Phrase&utm_term=animal+insurance&cid=cpc_google&gclid=Cj0KCQiAvqGcBhCJARIsAFQ5ke7PM-eJTiL0UvfyKMRuDQzxoisRsQOkix_ZU4r0kTq1JlIAGvGvRNUaAk_ZEALw_wcB&gclsrc=aw.ds",
+      "url":"https://www.banfield.com/promotions/OWP?utm_source=google&utm_medium=cpc&utm_campaign=%5BOWP%5D+Standalone+-+Northeast+-+NonBrand&utm_content=%5BOWP%5D+Standalone+-+Northeast+-+NonBrand+-+General+-+Phrase&utm_term=animal+insurance&cid=cpc_google&gclid=Cj0KCQiAvqGcBhCJARIsAFQ5ke7PM-eJTiL0UvfyKMRuDQzxoisRsQOkix_ZU4r0kTq1JlIAGvGvRNUaAk_ZEALw_wcB&gclsrc=aw.ds",
       "appointments":"",
        "phone":""
     },
