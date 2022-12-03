@@ -6,38 +6,208 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="/css/nav.css" type='text/css'/>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+        }
+        
+        html {
+          box-sizing: border-box;
+        }
+        
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
+        
+        .column {
+          float: left;
+          width: 25%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+        
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          margin: 8px;
+        }
+        
+        .about-section {
+          padding: 50px;
+          text-align: center;
+          background-color: #474e5d;
+          color: white;
+         
+        }
+        
+        .container {
+          padding: 0 16px;
+        }
+        
+        .container::after, .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        .title {
+          color: grey;
+        }
+        
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        .button:hover {
+          background-color: #555;
+        }
+        
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+        }
+        }
+        .FAQ {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 30px;
+          transition: 0.4s;
+        }
+        
+        .active, .accordion:hover {
+          background-color: #ccc; 
+        }
+        
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: white;
+          overflow: hidden;
+          font-size: 25px;
+        }
+        
+        </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href = "/index.html">Home</a></li>
-                <li><a href = "/html/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <!-- main content-->
-        <h1>about.html (about page)</h1>
-        <p>
-            Lorem ipsum dolorn sit amet, consectetur a
-            dipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum. hffhfhhfh
-        </p>
-    </main>
+    <div class="about-section">
+        <h1 style="color:white;font-size:50px;">Zooly</h1>
+        <p style="color:white;font-size:20px;">Our Story</p>
+        <p>we are thrilled that we've been able to help so many pet parents give their four-legged family members great medical care.
+          We understand the special bond that exists between humans and their pets, and we work to ensure pet owners across the country can better afford the best insurence care. 
+          we will help to find the best quality insurance coverage for your pets.
+          We strive to give pet owners peace of mind by taking the financial worry out of owning a pet, so you can make the best decisions for your four-footed friend .
+      </p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="Eisha.JPG" style="width:100%" height="400">
+            <div class="container">
+              <h2>Eisha</h2>
+              <p class="title">CEO & Founder</p>
+              <p>she is the best</p>
+              <p>Eisha@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="Moo.jpg" style="width:100%" height="400">
+            <div class="container">
+              <h2>Mo</h2>
+              <p class="title">Co Founder</p>
+              <p>He is not the best</p>
+              <p>mo@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="Mariana.JPG" style="width:100%" height="400">
+            <div class="container">
+              <h2>Mariana</h2>
+              <p class="title">Co Founder</p>
+              <p>she is doing great</p>
+              <p>Mariana@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="nazim.JPG" style="width:100%" height="400">
+            <div class="container">
+              <h2>Nazim Miah</h2>
+              <p class="title">Co Founder</p>
+              <p>Best of best</p>
+              <p>Nazim@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+          <h2 style="text-align:center">FAQ</h2>
+         <button class="FAQ">why you need dog insurence?</button>
+          <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+      
+          <button class="FAQ">Section 2</button>
+          <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+      
+          <button class="FAQ">Section 3</button>
+          <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+      
+      <script>
+      var acc = document.getElementsByClassName("FAQ");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+      </script>
+      </div>
     <footer>
+        <!--
         <ul>
             <li><a href = "/index.html">Home</a></li>
             <li><a href = "/html/about.html">About</a></li>
             <li><a href = "/html/contact.html">Contact</a></li>
+
         </ul>
+    -->
         <p>Copyright <script>document.write(new Date().getFullYear());</script> &copy; Zooly</p>
     </footer>
 </body>
