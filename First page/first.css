@@ -1,17 +1,20 @@
 *{
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	box-sizing:border-box;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
 .container{
 	width: 100%;
 	height: 100vh;
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url(imge.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.278)),url(imge.png);
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 	padding-left: 8%;
 	padding-right: 8%;
 	box-sizing: border-box;
@@ -26,10 +29,9 @@
 .logo{
 	width: 50px;
 	cursor: pointer;
-}
-.menu-icon{
-	width: 30px;
-	cursor: pointer;
+	background-color: #f8f8f8;
+	opacity: .5;
+	border-radius: 5px;
 }
 
 nav{
@@ -50,24 +52,12 @@ nav ul li a{
 	font-size: 13px;
 }
 
-.row{
-	display: flex;
-	height: 88%;
-	align-items: center;
-
-}	
-
-.col{
-	flex-basis: 50%;
-
-}
-
 h1{
-	color: #fff;
+	color: #f8f8f8;
 	font-size: 100px;
 }
 p{
-	color: #fff;
+	color: #f8f8f8;
 	font-size: 15px;
 	line-height: 20px;
 }
@@ -78,63 +68,46 @@ button{
 	color: #000;
 	font-size: 12px;
 	padding: 12px 0;
-	background: #fff;
+	background: #f8f8f8;
 	border: o;
 	border-radius: 20px;
 	outline: none;
 	margin-top: 30px;
-
+}
+.col{
+	flex-basis: 50%;
 
 }
 
-
-.card{
-
-	width: 200px;
-	height: 230px;
+.card {
+	float:left;
+	width: 180px;
+	height: 100px;
 	display: inline-block;
 	border-radius: 10px;
 	padding: 15px 25px;
 	box-sizing: border-box;
 	cursor: pointer;
-	margin: 10px 15px;
 	background-position: center;
 	background-size: cover;
 	transition: transform 0.5s;
+}
 
+.column::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-}
-.card1{
-	background-image: url(cat.jpg);
-}
-.card2{
-	background-image: url(dog.jpg);
-}
-.card3{
-	background-image: url(p.jpg);
-}
-.card4{
-	background-image: url(d.jpg);
-}
-.card5{
-	background-image: url(sh.jpg);
-}
-.card6{
-	background-image: url(h.jpg);
-}
 .card:hover{
 	transform: translate(-10px);
 }
 h5{
-	color: #fff;
+	color: #f8f8f8;
 	text-shadow: 0	0	5px	#999;
 }
 
 
-.card p{
-	text-shadow: 0	0	15px	#000;
-	font-size: 8px;
-}
 
 
 
