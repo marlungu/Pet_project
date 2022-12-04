@@ -1,6 +1,6 @@
 *{
 	box-sizing:border-box;
-	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:'Times New Roman', Times, serif;
 }
 
 body, html {
@@ -79,8 +79,18 @@ button{
 
 }
 
-.card {
+/* .row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+
+} */
+
+#card_id {
+	border-radius: 10px;
 	float:left;
+}
+.card {
 	width: 180px;
 	height: 100px;
 	display: inline-block;
@@ -93,11 +103,11 @@ button{
 	transition: transform 0.5s;
 }
 
-.column::after {
+/* .column::after {
   content: "";
   clear: both;
   display: table;
-}
+} */
 
 .card:hover{
 	transform: translate(-10px);
