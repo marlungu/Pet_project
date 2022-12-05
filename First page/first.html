@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About</title>
-        <link rel="stylesheet" href="first.css" type='text/css'/>
-    </head>
-    <body>
-        <div class="container">
-            <div class="navbar">
-                <img src="zooly-logo.png" class="logo">
-                <nav>
-                    <ul>
-                    <li><a href = "/First page/first.html">Home</a></li>
-                    <li><a href = "/html/about.html">About</a></li>
-                    <li><a href = "/html/contact.html">Contact</a></li>
-                    <li><a href = "/register.html">Login</a></li>
-                </ul>
-                </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First2</title>
+    <link rel="stylesheet" href="/css/nav.css" type='text/css'/>
+    <link rel="stylesheet" href="first.css" type='text/css'/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href = "/First page/first.html">Home</a></li>
+                <li><a href = "/html/about.html">About</a></li>
+                <li><a href = "/html/contact.html">Contact</a></li>
+                <li><a href = "/register.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="homepage">
+        <!-- main content-->
+        
+        <div class="row">
+            <div class="col">
+                <h1>ZOOLY</h1>
+                <p>Zooly Pet Insurance Finder makes the process of finding the right insurance policy simpler and more straightforward.
+                    The website also offers discounts and special deals, helping customers save money on their pet insurance expenses.
+                </p>
+                <button type="button"  onclick="window.location.href='/html/results.html'"> Find your Insurance</button>
             </div>
+            <div class="column">
+                <div class="card">
+                    <img src="cat.jpg" alt="" style="width:100%">
+                </div>    
 
-            <div class="row">
-                <div class="col">
-                    <h1>ZOLLY</h1>
-                    <p>Zooly Pet Insurance Finder makes the process of finding the right insurance policy simpler and more straightforward.
-                        The website also offers discounts and special deals, helping customers save money on their pet insurance expenses.
-                    </p>
-                    <button type="button"  onclick="window.location.href='/html/results.html'"> Find your Insurance</button>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <img src="cat.jpg" alt="" style="width:100%">
-                    </div>    
+                <div class="card">
+                    <!-- <h5> Dog</h5> -->
+                    <img src="dog.jpg" alt="dog" style="width:100%">
+                </div> 
 
-                    <div class="card">
-                        <!-- <h5> Dog</h5> -->
-                        <img src="dog.jpg" alt="dog" style="width:100%">
-                    </div> 
+                <div class="card">
+                    <!-- <h5> Dog</h5> -->
+                    <img src="sh.jpg" alt="" style="width:100%">
+                </div> 
 
-                    <div class="card">
-                        <!-- <h5> Dog</h5> -->
-                        <img src="sh.jpg" alt="" style="width:100%">
-                    </div> 
-
-                    <div class="card">
-                        <!-- <h5> Dog</h5> -->
-                        <img src="d.jpg" alt="" style="width:100%">
-                    </div> 
-                    <div class="card">
-                        <!-- <h5> Dog</h5> -->
-                        <img src="h.jpg" alt="" style="width:100%" >
-                    </div> 
-                    
-                </div>
-            </div> 
+                <div class="card">
+                    <!-- <h5> Dog</h5> -->
+                    <img src="d.jpg" alt="" style="width:100%">
+                </div> 
+                <div class="card">
+                    <!-- <h5> Dog</h5> -->
+                    <img src="h.jpg" alt="" style="width:100%" >
+                </div> 
+                
+            </div>
         </div> 
-    </body>
+    </main>
+    <footer>
+        <ul>
+            <li><a href = "/First page/first.html">Home</a></li>
+            <li><a href = "/html/about.html">About</a></li>
+            <li><a href = "/html/contact.html">Contact</a></li>
+        </ul>
+        <p>Copyright <script>document.write(new Date().getFullYear());</script> &copy; Zooly</p>
+    </footer> 
+
+</body>
 </html>
