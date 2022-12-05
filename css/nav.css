@@ -15,7 +15,7 @@ header{
 	text-align: left;
 	background-color: #21b6a8;
 }
-header nav ul li a {
+header .navbar ul li a {
 	font-size: 1.2em;
 	line-height: 2.3em;
 	height: 2.3em;
@@ -24,10 +24,10 @@ header nav ul li a {
 	text-decoration: none;
 	color: white;
  }
- header nav ul li a:hover {
+ header .navbar ul li a:hover {
 	color: #013220;
  }
- nav ul li {
+ .navbar ul li {
 	display: inline;
 	list-style-type: none;
  }
@@ -63,4 +63,9 @@ header nav ul li a {
  footer ul li {
 	display: inline;
 	list-style-type: none;
+ }
+#logo {
+	height: 100%;
+	width: 5%;
+	float:right;
  }

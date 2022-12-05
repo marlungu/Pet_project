@@ -9,12 +9,11 @@ body, html {
 }
 
 #homepage{
-	background-image: url(imge.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.278)),url(imge.png);
 }
 .container{
 	width: 100%;
 	height: 100vh;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.278)),url(imge.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
