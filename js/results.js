@@ -24,7 +24,7 @@ var ins = [
       "facility":"Animal Medical Centers of Loudon (Ashburn Farm Animal Hospital)",
       "insurance": "ASPCA Pet Health Insurance",
       "url":"https://www.aspcapetinsurance.com/vet-locator/vet-clinic-details/?vetId=24009",
-      "appointments":"",
+      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(703) 726-8784"
     },
 
