@@ -12,7 +12,7 @@ body{
 
 /*header / Navigation List Styles */
 header{
-	text-align: left;
+	text-align: right;
 	background-color: #21b6a8;
 }
 header .navbar ul li a {
@@ -66,6 +66,6 @@ header .navbar ul li a {
  }
 #logo {
 	height: 100%;
-	width: 5%;
-	float:right;
+	width: 7%;
+	float:left;
  }
