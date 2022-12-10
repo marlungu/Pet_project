@@ -14,6 +14,7 @@ body{
 header{
 	text-align: right;
 	background-color: #21b6a8;
+	opacity: 0.8;
 }
 header .navbar ul li a {
 	font-size: 1.2em;
