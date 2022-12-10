@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
 }
   
@@ -14,14 +14,14 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #3f4d55;
-  color: #f8f8f8;
+  background-color: #fffffd;
+  color: #003c96;
   opacity:.8;
 }
 
 p {
-  color: #f8f8f8;
-  font-size:small;
+  color: #003c96;
+  font-size: 14px;
 }
  
 .column {
@@ -34,11 +34,15 @@ p {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 10px;
+  /* border-radius: 50%; */
 }
 
+.card img {
+  /* border-radius: 50%; */
+}
  
 .title {
-  color: rgb(27, 24, 24);
+  color:#003c96;
 }
 
 h3 {
@@ -47,35 +51,26 @@ h3 {
 }
 
 .container p {
-	color: rgb(49, 48, 48);
+	color: #003c96;
 }
-  
-   /*
 
-  .button {
+.button {
     border: none;
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
-    background-color: #000;
+    background-color: #dccdcd;
     text-align: center;
     cursor: pointer;
     width: 100%;
   }
-  
-  .button:hover {
-    background-color: #555;
-  }
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-  }
-  }
-  .FAQ {
-    background-color: #eee;
+
+.button:hover {
+  background-color: #555;
+}
+
+.FAQ {
+    background-color: inherit;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -86,6 +81,16 @@ h3 {
     font-size: 30px;
     transition: 0.4s;
   }
+   
+
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+  }
+  }
+  
   
   .active, .accordion:hover {
     background-color: #ccc; 
@@ -98,6 +103,3 @@ h3 {
     overflow: hidden;
     font-size: 25px;
   }
-
-
-  style="color:white;font-size:50px;" */
