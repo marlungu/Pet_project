@@ -54,7 +54,17 @@ h3 {
 	color: #003c96;
 }
 
-.button {
+
+h2 {
+  text-align:center;
+}
+.faq {
+  text-align: center;
+  background-color: red;
+  float: left;
+}
+
+/* .button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -63,15 +73,15 @@ h3 {
     text-align: center;
     cursor: pointer;
     width: 100%;
-  }
+  } */
 
 .button:hover {
-  background-color: #555;
+  background-color: #5f5f5f;
 }
 
 .FAQ {
-    background-color: inherit;
-    color: #444;
+    background-color: #d7edff;
+    /* color: #444; */
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -102,4 +112,7 @@ h3 {
     background-color: white;
     overflow: hidden;
     font-size: 25px;
+  }
+  footer {
+    background-color: #003c96;
   }

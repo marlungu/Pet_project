@@ -13,18 +13,18 @@ body{
 /*header / Navigation List Styles */
 header{
 	text-align: right;
-	/* background-color: #21b6a8; */
 	background-color: #007cff;
 	opacity: 0.8;
 }
 header .navbar ul li a {
-	font-size: 1.2em;
+	text-transform: uppercase;
+	font-size: .8em;
 	line-height: 2.3em;
 	height: 2.3em;
-	padding: 0px 25px;
+	padding: 0px 10px;
 	width: 100%;
 	text-decoration: none;
-	color: white;
+	color: #f8f8f8;
  }
  header .navbar ul li a:hover {
 	color: #013220;
@@ -46,15 +46,16 @@ header .navbar ul li a {
  footer{
  background-color: #000000;
  text-align: center;
- color: white;
+ color: #f8f8f8;
  padding: 20px;
  }
 
  footer ul li a {
-	font-size: 1.2em;
+	text-transform: uppercase;
+	font-size: .8em;
 	line-height: 2.3em;
-	height: 2.3em;
-	padding: 0px 10px;
+	height: 2em;
+	padding: 0px 5px;
 	width: 100%;
 	text-decoration: none;
 	color: white;
