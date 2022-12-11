@@ -48,7 +48,7 @@ imageAnimation {  0% {
 }
  8% {
  animation-timing-function: ease-out;
- opacity: 0.2;
+ opacity: 0.4;
 }
  17% {
  opacity:0.4;
