@@ -20,7 +20,7 @@ body, html {
     position: absolute;
     top: 0px;
     width: 100%;
-    z-index: 0;
+    z-index: 1;
   }
 .crossfade > figure:nth-child(1) { background-image: url('imge1.png'); }
 .crossfade > figure:nth-child(2) {
@@ -63,7 +63,7 @@ imageAnimation {  0% {
 
 .entry-content{
 	width:100%;
-    z-index: 5;
+    z-index: 20;
     float: right;
     text-align: center;
     opacity: 1;
