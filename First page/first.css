@@ -8,7 +8,17 @@ body, html {
 }
 
 #homepage{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.278)),url(imge.png);
+	background-color: rgb(207, 223, 242);
+  	/* background: 
+	linear-gradient(145deg, rgb(207, 223, 242) 30%, transparent 30%), 
+    linear-gradient(40deg, rgb(255, 255, 255) 20%,transparent 20%),
+	linear-gradient(195deg, rgb(77, 105, 160) 30%, transparent 10%),
+	linear-gradient(200deg, rgb(197, 69, 14) 30%, transparent 10%); */
+
+    /* linear-gradient(145deg, rgb(207, 223, 242) 50%, transparent 50%), 
+    linear-gradient(125deg, transparent 50%, rgba(233, 233, 233, 233) 50%); */
+
+	/* background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.278)),url(imge.png); */
 }
 .container{
 	width: 100%;
