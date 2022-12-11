@@ -5,7 +5,7 @@
 body {
   background: white;
 }
-
+/*
 .header {
   width: 30%;
   margin: 50px auto 0px;
@@ -16,17 +16,25 @@ body {
   border-bottom: none;
   border-radius: 10px 10px 0px 0px;
   padding: 20px;
+}*/
+#body_header
+{
+
+	width:auto;
+	margin:0px auto;
+	text-align:center;
+	font-size:25px;
 }
 form, .content {
-  width: 30%;
-  margin: 0px auto;
-  padding: 20px;
+  width: 25%;
+  margin: 10px auto;
+  padding: 10px 20px;
   border: 1px solid #B0C4DE;
   background: white;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 8px;
 }
 .input-group {
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 20px 0px;
 }
 .input-group label {
   display: block;
@@ -41,27 +49,22 @@ form, .content {
   border-radius: 5px;
   border: 1px solid gray;
 }
-/*.btn {
-  padding: 10px;
-  font-size: 15px;
-  color: white;
-  background: #000000;
-  border: none;
-  border-radius: 5px;
-}*/
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #000000;
+  background-color: rgb(243, 102, 51);
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
   width: 100%;
-  border: 1px solid #000000;
+  border: 1px solid #383737;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
+}
+#altOption{
+  text-align: center;
 }
 .error {
   width: 92%;

@@ -33,7 +33,7 @@ header .navbar ul li a {
 	font-size: .8em;
 	line-height: 2.3em;
 	height: 2.3em;
-	padding: 0px 30px;
+	padding: 0px 20px;
 	width: 100%;
 	text-decoration: none;
 	color: #f8f8f8;
@@ -44,7 +44,7 @@ header .navbar ul li a {
  .navbar ul li {
 	display: inline;
 	list-style-type: none;
-	padding:20px;
+	
  }
 
  /* main 
@@ -60,7 +60,11 @@ header .navbar ul li a {
 
  /* footer styles */
  footer{
+<<<<<<< HEAD
+ background-color: rgb(2, 27, 78);
+=======
  background-color: rgb(35, 53, 89);
+>>>>>>> 126516aa655e5de8d85a40b49724449fbc9dcf43
  text-align: center;
  color: #f8f8f8;
  padding: 20px;

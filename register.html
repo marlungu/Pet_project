@@ -28,31 +28,31 @@
     </header>
 
   <main>
-<div class="header">
-  <h2>Sign Up</h2>
+<div id="body_header">
+  <h1>Sign Up</h1>
 </div>
 
 <form method="post" action="register.php">
   <div class="input-group">
-    <label>Username</label>
-    <input type="text" name="username" value="">
+    <label>Username*</label>
+    <input type="text" name="username" value="" required>
   </div>
   <div class="input-group">
-    <label>Email</label>
-    <input type="email" name="email" value="">
+    <label>Email*</label>
+    <input type="email" name="email" value="" required>
   </div>
   <div class="input-group">
-    <label>Password</label>
-    <input type="password" name="password_1">
+    <label>Password*</label>
+    <input type="password" name="password_1" required>
   </div>
   <div class="input-group">
-    <label>Confirm password</label>
-    <input type="password" name="password_2">
+    <label>Confirm password*</label>
+    <input type="password" name="password_2" required>
   </div>
   <div class="input-group">
     <button type="submit">Register</button>
   </div>
-  <p>
+  <p id="altOption">
     Already a member? <a href="login.html"><strong>sign in</strong></a><br/>
     or continue as <a href="/html/results.html"><strong>guest</strong></a>
 

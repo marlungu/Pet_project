@@ -25,7 +25,9 @@ p {
   color: black;
   font-size: 14px;
 }
- 
+#aboutFooter{
+  color:white;
+ }
 .column {
   float: left;
   width: 25%;
