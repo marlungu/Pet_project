@@ -63,6 +63,16 @@ h3 {
   padding:5%;
 }
 
+.hide {
+  display: none;
+}
+    
+.container:hover + .hide {
+  display: block;
+  color: red;
+}
+
+
 h2 {
   text-align:center;
 }
@@ -121,4 +131,8 @@ h2 {
     overflow: hidden;
     font-size: 25px;
   }
-  
+ 
+  #icons {
+    text-align: center;
+    text-decoration: none;
+  }

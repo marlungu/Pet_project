@@ -60,7 +60,11 @@ header .navbar ul li a {
 
  /* footer styles */
  footer{
+<<<<<<< HEAD
  background-color: rgb(2, 27, 78);
+=======
+ background-color: rgb(35, 53, 89);
+>>>>>>> 126516aa655e5de8d85a40b49724449fbc9dcf43
  text-align: center;
  color: #f8f8f8;
  padding: 20px;
