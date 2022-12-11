@@ -1,8 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
 }
-  
+
+
 html {
   box-sizing: border-box;
 }
@@ -16,8 +21,13 @@ html {
   padding-bottom:30px;
   align-self: center;
   text-align: center;
-  background-color: #fffffd;
-  color: #003c96;
+  /* background-color: #fffffd; */
+  /* background-color: paleturquoise;
+  background: 
+    linear-gradient(145deg, rgb(175, 238, 238) 50%, transparent 50%), 
+    linear-gradient(145deg, transparent 50%, rgba(233, 233, 233, 233) 50%); */
+
+  color: #000;
   width: 80%;
 }
 
@@ -46,8 +56,8 @@ p {
 }*/
  
 .title {
-  color:#003c96;
-  font-weight: bold;
+  color:#111;
+  font-weight:300;
   padding-bottom: 5%;
 }
 
@@ -56,8 +66,8 @@ h3 {
   font-size: medium;
 }
 
-.container p {
-	color: black;
+.container h2, p {
+	color: #000;
 }
 .container{
   padding:5%;
@@ -69,39 +79,15 @@ h3 {
     
 .container:hover + .hide {
   display: block;
-  color: red;
 }
 
 
 h1, h2 {
   text-align:center;
 }
-.faq {
-  text-align: center;
-  background-color: red;
-  float: left;
-}
-
-/* .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    background-color: #dccdcd;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  } */
-
-/* .button:hover {
-  background-color: #5f5f5f;
-} */
 
 .FAQ {
-    /* background-color: #d7edff; */
-      background-color: #fffffd;
-
-    /* color: #444; */
+    background-color: #fffffd;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -134,11 +120,34 @@ h1, h2 {
     font-size: 25px;
   }
  
-  #icons {
+  .icons {
     text-align: center;
-    text-decoration: none;
+    color: red;
   }
 
-  #faq {
+  /* #faq {
     text-align: left;
   }
+  .faq {
+  text-align: center;
+  background-color: red;
+  float: left;
+} */
+
+main{
+	background-color: rgb(207, 223, 242);
+  	background: 
+	
+	linear-gradient(180deg, rgb(29, 74, 152) 1%, transparent 10%);
+}
+
+.hide h3 {
+  text-align: center;
+  font-weight:900;
+  color: #000;
+}
+
+.hide p {
+  color: #333;
+  padding: 0 10px 10px 10px;
+}
