@@ -73,7 +73,7 @@ h3 {
 }
 
 
-h2 {
+h1, h2 {
   text-align:center;
 }
 .faq {
@@ -93,12 +93,14 @@ h2 {
     width: 100%;
   } */
 
-.button:hover {
+/* .button:hover {
   background-color: #5f5f5f;
-}
+} */
 
 .FAQ {
-    background-color: #d7edff;
+    /* background-color: #d7edff; */
+      background-color: #fffffd;
+
     /* color: #444; */
     cursor: pointer;
     padding: 18px;
@@ -121,7 +123,7 @@ h2 {
   
   
   .active, .accordion:hover {
-    background-color: #ccc; 
+    background-color: #fffffd; 
   }
   
   .panel {
@@ -135,4 +137,8 @@ h2 {
   #icons {
     text-align: center;
     text-decoration: none;
+  }
+
+  #faq {
+    text-align: left;
   }
