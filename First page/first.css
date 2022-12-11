@@ -8,30 +8,15 @@ body, html {
 }
 
 #homepage{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.358),rgba(0, 0, 0, 0.278)),url(imge.png);
-}
-.container{
-	width: 100%;
-	height: 100vh;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-left: 8%;
-	padding-right: 8%;
-	box-sizing: border-box;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.655),rgba(0, 0, 0, 0.655)),url(imge.png);
+	background-size: 100vw;
 }
 
-
-h1{
-	color: #f8f8f8;
-	font-size: 100px;
-}
 p{
 	color: #f8f8f8;
 	font-size: 15px;
 	line-height: 20px;
 }
-
 
 button{
 	width: 250px;
@@ -39,54 +24,11 @@ button{
 	font-size: 12px;
 	padding: 12px 0;
 	background: #f8f8f8;
-	border: o;
+	border: 1;
 	border-radius: 20px;
 	outline: none;
 	margin-top: 30px;
 }
-.col{
-	flex-basis: 50%;
-
-}
-
-/* .row{
-	display: flex;
-	height: 88%;
-	align-items: center;
-
-} */
-
-#card_id {
-	border-radius: 10px;
-	float:left;
-}
-.card {
-	width: 180px;
-	height: 100px;
-	display: inline-block;
-	border-radius: 10px;
-	padding: 15px 25px;
-	box-sizing: border-box;
-	cursor: pointer;
-	background-position: center;
-	background-size: cover;
-	transition: transform 0.5s;
-}
-
-/* .column::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
-
-.card:hover{
-	transform: translate(-10px);
-}
-h5{
-	color: #f8f8f8;
-	text-shadow: 0	0	5px	#999;
-}
-
 
 
 

@@ -7,10 +7,11 @@
     <title>Homepage</title>
     <link rel="stylesheet" href="/css/nav.css" type='text/css'/>
     <link rel="stylesheet" href="first.css" type='text/css'/>
+    <link rel="stylesheet" href="slideshow.css" type='text/css'/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
-    <!--<header>
+    <header>
         <nav class = 'navbar'>
             <ul>
                 <li><a href = "/First page/first.html">HOME</a></li>
@@ -21,54 +22,61 @@
                
             </ul>
         </nav>
-    </header>-->
+    </header>
     <main id="homepage">
         <!-- main content-->
-        
-        <div class="row">
-            <div class="col">
-                <!--zooly,tagline, entry button need to be put in their own div and center spaced accordingly.-->
-                <a href="/images/zoolylogo.png"><img src="/images/zoolylogo.png"></a>
-                <p>Zooly Pet Insurance Finder makes the process of <br/>finding the right insurance policy simpler and more <br/>straightforward.
+        <div class="content">
+            <a href="/images/zoolylogo.png"><img src="/images/zoolylogo.png"></a>
+            <div>
+                <p>
+                    Zooly Pet Insurance Finder makes the process of finding the right insurance policy simpler and more straightforward.
                 </p>
                 <button type="button"  onclick="window.location.href='/html/results.html'"> Find your Insurance</button>
             </div>
-            <!--lets put pictures into a slideshow or iframe.-->
-            <div class="column">
-                <div class="card">
-                    <img src="cat.jpg" alt="" style="width:100%">
-                </div>    
-
-                <div class="card">
-                    <!-- <h5> Dog</h5> -->
-                    <img src="dog.jpg" alt="dog" style="width:100%">
-                </div> 
-
-                <div class="card">
-                    <!-- <h5> Dog</h5> -->
-                    <img src="sh.jpg" alt="" style="width:100%">
-                </div> 
-
-                <div class="card">
-                    <!-- <h5> Dog</h5> -->
-                    <img src="d.jpg" alt="" style="width:100%">
-                </div> 
-                <div class="card">
-                    <!-- <h5> Dog</h5> -->
-                    <img src="h.jpg" alt="" style="width:100%" >
-                </div> 
-                
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="/First page/cat.jpg" style="width:100%">
             </div>
-        </div> 
-    </main>
-    <!--<footer>
-        <ul id="footerNav">
-            <li><a href = "/First page/first.html">HOME</a></li>
-            <li><a href = "/html/about.html">ABOUT</a></li>
-            <li><a href = "/html/contact.html">CONTACT</a></li>
-        </ul>
-        <p>Copyright <script>document.write(new Date().getFullYear());</script> &copy; Zooly</p>
-    </footer> -->
+                
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="/First page/dog.jpg" style="width:100%">
+            </div>
+                
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="/First page/sh.jpg" style="width:100%">
+            </div>
 
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="/First page/d.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="/First page/h.jpg" style="width:100%">
+            </div>
+                
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+                
+        <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+    </main>
+    <script src="/First page/slideshow.js"></script>
 </body>
 </html>
