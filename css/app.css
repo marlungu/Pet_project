@@ -4,14 +4,13 @@ body
 }
 #body_header
 {
-
 	width:auto;
 	margin:0px auto;
 	text-align:center;
 	font-size:25px;
 }
 form {
-  max-width: 300px;
+  max-width: 480px;
   margin: 10px auto;
   padding: 10px 20px;
   background: white;
@@ -68,18 +67,20 @@ select {
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #000000;
+  background-color: rgb(243, 102, 51);
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
   width: 100%;
-  border: 1px solid #000000;
+  border: 1px solid #383737;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
 }
-
+#contactForm{
+  width: 380px;
+}
 fieldset {
   margin-bottom: 30px;
   border: none;
@@ -102,21 +103,19 @@ label.light {
 }
 
 .number {
-  background-color: #000000;
+  background-color: rgb(243, 102, 51);
   color: #fff;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   display: inline-block;
   font-size: 0.8em;
   margin-right: 4px;
-  line-height: 30px;
+  line-height: 25px;
   text-align: center;
   text-shadow: 0 1px 0 rgba(255,255,255,0.2);
   border-radius: 100%;
 }
 
 
-  form {
-    max-width: 480px;
-  }
+
   
