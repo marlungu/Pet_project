@@ -11,6 +11,16 @@ body, html {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.655),rgba(0, 0, 0, 0.655)),url(imge.png);
 	background-size: 100vw;
 }
+.entry-content{
+	width:60%;
+	padding: 70px;
+	float: left;
+
+}
+.entry-content p{
+	width: 60%;
+	text-align: center;
+}
 
 p{
 	color: #f8f8f8;

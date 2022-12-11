@@ -27,6 +27,7 @@ header{
 	position: fixed;
 	width: 100%;
 	overflow:hidden;
+	z-index: 9999;
 }
 header .navbar ul li a {
 	text-transform: uppercase;
