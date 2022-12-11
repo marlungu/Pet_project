@@ -3,14 +3,14 @@ var ins = [
       "facility":"Banfield Pet Hospital",
       "insurance": "Spot Pet Health Insurance",
       "url":"https://www.banfield.com/en",
-      "appointments":"https://www.banfield.com/locations",
+      "appointments":"https://www.banfield.com/locations '<a href = /html/appointment.html>Make an appointment</a>'",
       "phone":""
     },
     {
       "facility":"Banfield Pet Hospital",
       "insurance": "Lemonade Pet Health Insurance",
-      "url":"https://www.banfield.com/promotions/OWP?utm_source=google&utm_medium=cpc&utm_campaign=%5BOWP%5D+Standalone+-+Northeast+-+NonBrand&utm_content=%5BOWP%5D+Standalone+-+Northeast+-+NonBrand+-+General+-+Phrase&utm_term=animal+insurance&cid=cpc_google&gclid=Cj0KCQiAvqGcBhCJARIsAFQ5ke7PM-eJTiL0UvfyKMRuDQzxoisRsQOkix_ZU4r0kTq1JlIAGvGvRNUaAk_ZEALw_wcB&gclsrc=aw.ds",
-      "appointments":"",
+      "url":"https://www.banfield.com/en",
+      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
        "phone":""
     },
     {
@@ -21,7 +21,7 @@ var ins = [
       "phone":"(571) 209-1146"
     },
     {
-      "facility":"Animal Medical Centers of Loudon (Ashburn Farm Animal Hospital)",
+      "facility":"Animal Medical Centers of Loudoun (Ashburn Farm Animal Hospital)",
       "insurance": "ASPCA Pet Health Insurance",
       "url":"https://www.aspcapetinsurance.com/vet-locator/vet-clinic-details/?vetId=24009",
       "appointments":"<a href = /html/appointment.html>Make an appointment</a>",

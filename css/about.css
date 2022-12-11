@@ -12,15 +12,17 @@ html {
 }
 
 .about-section {
-  padding: 50px;
+  padding-top:70px;
+  padding-bottom:30px;
+  align-self: center;
   text-align: center;
   background-color: #fffffd;
   color: #003c96;
-  opacity:.8;
+  width: 80%;
 }
 
 p {
-  color: #003c96;
+  color: black;
   font-size: 14px;
 }
  
@@ -36,13 +38,15 @@ p {
   margin: 10px;
   /* border-radius: 50%; */
 }
-
+/*
 .card img {
-  /* border-radius: 50%; */
-}
+   border-radius: 50%; 
+}*/
  
 .title {
   color:#003c96;
+  font-weight: bold;
+  padding-bottom: 5%;
 }
 
 h3 {
@@ -51,9 +55,11 @@ h3 {
 }
 
 .container p {
-	color: #003c96;
+	color: black;
 }
-
+.container{
+  padding:5%;
+}
 
 h2 {
   text-align:center;
@@ -113,6 +119,4 @@ h2 {
     overflow: hidden;
     font-size: 25px;
   }
-  footer {
-    background-color: #003c96;
-  }
+  

@@ -7,8 +7,10 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="/css/nav.css" type='text/css'/>
     <link rel="stylesheet" href="/css/app.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    
     <style>
-        body{background-color: #f1f1f1;}
+        body{background-color: white;}
         #contactTitle{text-align: center;}
     </style>
 </head>
@@ -18,18 +20,20 @@
             <ul>
                 <li><a href = "/First page/first.html">Home</a></li>
                 <li><a href = "/html/about.html">About</a></li>
+                <li><a href = "/First page/first.html"><img id = 'logo' src="/images/zoolylogo.png"/></a></li>
                 <li><a href = "/html/contact.html">Contact</a></li>
                 <li><a href = "/register.html">Login</a></li>
-                <li><a href = "/First page/first.html"><img id = 'logo' src="/First page/zooly-logo.png"/></a></li>
+                
             </ul>
         </nav>
     </header>
     <main>
         <!-- main content-->
+        <div id = 'empty'></div>
         <div id="body_header"><h1>Contact Us</h1></div>
-        <form method = 'post' action="contactResults.php"> <!--apparently, action is not needed in HTML5, but if you know put it in-->
+        <form method = 'post' action="contactResults.php">
             <fieldset>
-                <!--<legend id="contactTitle">How can we help?</legend><br/>  *removed because it was ugly-->
+                <br>
                 <label for="name">Name*:</label>
                 <input type="text" id="name" name="user_name" placeholder="Name" required pattern="[a-zA-Z0-9]+">
 
@@ -38,13 +42,13 @@
 
                 <label>Message: </label>
                 <textarea placeholder = "We'd love to hear from you!"></textarea><br/>
-                <button type="submit" name="Submit">
+                <button type="submit">Submit</button>
 
             </fieldset>
         </form>
     </main>
     <footer>
-        <ul>
+        <ul id="footerNav">
             <li><a href = "/First page/first.html">Home</a></li>
             <li><a href = "/html/about.html">About</a></li>
             <li><a href = "/html/contact.html">Contact</a></li>
