@@ -66,6 +66,7 @@ imageAnimation {  0% {
     z-index: 5;
     float: right;
     text-align: center;
+    opacity: 1;
 }
 .entry-content p{
 	width: 100%;
