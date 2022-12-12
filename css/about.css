@@ -119,7 +119,14 @@ h1, h2 {
     overflow: hidden;
     font-size: 25px;
   }
- 
+ .panel img{
+  width: 20%;
+  padding: 20px;
+  vertical-align: middle;
+ }
+ .panel p{
+  width: 60%;
+ }
   .icons {
     text-align: center;
     color: red;
