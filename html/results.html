@@ -24,12 +24,12 @@
     </header>
     <main>
         <!-- main content-->
-        <div class="form-container">
+        <div class="box">
             <form id="search-ins">
-                <label for="search">Search:</label>
-                <input type="text" name="search" id="search" />
-                <button name="search_btn">Search</button>
-                <button name="reset" type="reset">Reset</button>
+                <input type="text" name="search" id="search" placeholder="Search..." >
+                <input name="reset" type="reset" value="Reset" onclick="moveSearchBar()">
+                <input name="search_btn" type="submit" value="Search">
+                
             </form>
         </div>
         <div id="app"></div>

@@ -47,15 +47,15 @@ var ins = [
   
   var render = function(data) {
     var petData = document.getElementById('app');
-    var insHTMLString = '<ul>'+
+    var insHTMLString = '<table border="2">'+
       data.map(function(ins){
-        return '<li>'+
-                '<strong>Facility: </strong>' + ins.facility + '<br/>' +
-                '<strong>Insurance: </strong>' + ins.insurance + '<br/>' +
-                '<strong>Website: </strong>' + ins.url  + '<br/>' +
-                '<strong>Appointments: </strong>' + ins.appointments + '<br/>' +
-                '<strong>Phone number: </strong>' + ins.phone + '<br/>' +
-              '</li>';
+        return '<tr>'+
+                '<td><strong>Facility: </strong>' + ins.facility + '<br/>' +
+                '<td><strong>Insurance: </strong>' + ins.insurance + '<br/>' +
+                '<td><strong>Website: </strong>' + ins.url  + '<br/>' +
+                '<td><strong>Appointments: </strong>' + ins.appointments + '<br/>' +
+                '<td><strong>Phone number: </strong>' + ins.phone + '<br/>' +
+              '</tr>';
       }).join('');
       + '</ul>';
     petData.innerHTML = insHTMLString;
@@ -94,7 +94,8 @@ var ins = [
   };
 
   document.addEventListener('submit', handleSearch);
-  document.addEventListener('reset', function(event){
-    event.preventDefault(event);
-    render(ins);
+  document.addEventListener('reset', function(){
+    render.preventDefault();
   })
+
+ 

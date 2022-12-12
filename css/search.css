@@ -1,26 +1,83 @@
-body {
-    font-family: "Montserrat", sans-serif;
-}
 
-ul {
-    list-style: none;
-}
-
-li {
-    padding: 10px 0;
-    line-height: 1.2rem;
-}
-
-
-.form-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 1vh;
-}
-
-
-#petdata {
    
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+h1
+{
+    margin: 0 0 20px;
+    padding: 0;
+    color: #fff;    
+    font-size: 40px;
+}
+.box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+
+}
+
+input[type="text"]
+{
+    background: rgb(207, 207, 207);
+    width: 410px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+
+}
+input[type="reset"]
+{
+    position: relative;
+    left: -5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #4a03f0;
+    color: #fff;
+
+}
+input[type="submit"]
+{
+    position: relative;
+    left: -10px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #4a03f0;
+    color: #fff;
+
+}
+input[type="submit"]:hover
+{
+    background: #406fd3;
+}
+input[type="reset"]:hover
+{
+    background: #406fd3;
 }
