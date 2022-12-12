@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="/css/nav.css" type='text/css'/>
-    <link rel="stylesheet" href="first.css" type='text/css'/>
-    <link rel="stylesheet" href="slideshow.css" type='text/css'/>
+    <link rel="stylesheet" href="first2.css" type='text/css'/>
+    <!--<link rel="stylesheet" href="slideshow.css" type='text/css'/>-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
@@ -27,58 +27,20 @@
         <!-- main content-->
         <div class="entry-content">
             <a href="/images/zoolylogo.png"><img src="/images/zoolylogo.png"></a>
-            <div>
+            <div id="inner-entry">
                 <p>
-                    Zooly Pet Insurance Finder makes the process of finding the right insurance policy simpler and more straightforward.
+                     Zooly Pet Insurance Finder makes<br>finding a provider simple and straightforward 
                 </p>
-                <button type="button"  onclick="window.location.href='/html/results.html'"> Find your Insurance</button>
+                <button type="button"  onclick="window.location.href='/html/results.html'"> Find a Provider</button>
             </div>
         </div>
-        <div class='slides-content'>
-            <!-- Slideshow container -->
-            <div class="slideshow-container">
-            <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 5</div>
-                    <img src="/First page/imge1.png" style="width:100%">
-                </div>
-                    
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 5</div>
-                    <img src="/First page/dog.jpg" style="width:100%">
-                </div>
-                    
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 5</div>
-                    <img src="/First page/sh.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 5</div>
-                    <img src="/First page/d.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">5 / 5</div>
-                    <img src="/First page/h.jpg" style="width:100%">
-                </div>
-                    
-                <!-- Next and previous buttons 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                -->
-                    
-            <!-- The dots/circles -->
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                    <span class="dot" onclick="currentSlide(4)"></span>
-                    <span class="dot" onclick="currentSlide(5)"></span>
-                </div>
-            </div>
+        <div class="crossfade">
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
         </div>
-        <br>
     </main>
     <script src="/First page/slideshow.js"></script>
 </body>

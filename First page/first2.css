@@ -63,6 +63,7 @@ imageAnimation {  0% {
 
 .entry-content{
 	width:100%;
+    position: relative;
     z-index: 20;
     float: right;
     text-align: center;
