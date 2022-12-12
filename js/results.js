@@ -50,11 +50,11 @@ var ins = [
     var insHTMLString = '<table border="2">'+
       data.map(function(ins){
         return '<tr>'+
-                '<td><strong>Facility: </strong>' + ins.facility + '<br/>' +
-                '<td><strong>Insurance: </strong>' + ins.insurance + '<br/>' +
+                '<td><strong>Facility: <br></strong>' + ins.facility + '<br/>' +
+                '<td><strong>Insurance: <br></strong>' + ins.insurance + '<br/>' +
                 //'<td><strong>Website: </strong>' + ins.url  + '<br/>' +
-                '<td><strong>Appointments: </strong>' + ins.appointments + '<br/>' +
-                '<td><strong>Phone number: </strong>' + ins.phone + '<br/>' +
+                '<td><strong>Appointments: <br></strong>' + ins.appointments + '<br/>' +
+                '<td><strong>Phone number: <br></strong>' + ins.phone + '<br/>' +
               '</tr>';
       }).join('');
       + '</ul>';

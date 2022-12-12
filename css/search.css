@@ -84,6 +84,10 @@ input[type="reset"]:hover
 {
     background: #406fd3;
 }
+table{
+    width: 100%;
+}
 td{
+    width: 10%;
     padding:2%;
 }
