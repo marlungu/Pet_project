@@ -1,46 +1,46 @@
 var ins = [
     {
-      "facility":"Banfield Pet Hospital",
+      "facility":"<a href='https://www.banfield.com/en'>Banfield Pet Hospital</a>",
       "insurance": "<a href = 'https://spotpetins.com/'><img src='/images/spot.svg' alt='Spot Pet Health Insurance'></a>",
-      "url":"<a href='https://www.banfield.com/en'>https://www.banfield.com/en</a>",
-      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
+      "url":"https://www.banfield.com/en",
+      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(877) 656-7146"
     },
     {
-      "facility":"Banfield Pet Hospital",
+      "facility":"<a href='https://www.banfield.com/en'>Banfield Pet Hospital</a>",
       "insurance": " <a href='https://www.lemonade.com/pet?utm_source=google-search-brand_pet_us_bau_prospect&utm_medium=ua&utm_campaign=14137430090&utm_term=127108543082_lemonade%20pet%20insurance_c&utm_content=631797340744'><img src='/images/lemonade.svg' alt='Lemonade Pet Health Insurance'></a>",
       "url":"<a href='https://www.banfield.com/en'>https://www.banfield.com/en</a>",
-      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
+      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
        "phone":"(877) 656-7146"
     },
     {
-      "facility":"Animal Dentistry and Oral Surgery",
+      "facility":"<a href='https://animaldentalspecialist.com/'>Animal Dentistry and Oral Surgery</a>",
       "insurance": "<a href='https://www.aspcapetinsurance.com/'><img src='/images/aspca.svg' alt='ASPCA Pet Health Insurance'></a>",
       "url":"<a href='https://animaldentalspecialist.com/'>https://animaldentalspecialist.com</a>",
-      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
+      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(571) 209-1146"
     },
     {
-      "facility":"Animal Medical Centers of Loudoun",
+      "facility":"<a href='https://www.loudounvet.com/'>Animal Medical Centers of Loudoun</a>",
       "insurance": "<a href='https://www.aspcapetinsurance.com/'><img src='/images/aspca.svg' alt='ASPCA Pet Health Insurance'></a>",
       "url":"<a href='https://www.loudounvet.com/'>https://www.loudounvet.com</a>",
-      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
+      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(703) 726-8784"
     },
 
     {
-      "facility":"Behavior Solutions for Pets",
+      "facility":"<a href='https://www.behaviorsolutions.guru/'>Behavior Solutions for Pets</a>",
       "insurance": "<a href='https://www.aspcapetinsurance.com/'><img src='/images/aspca.svg' alt='ASPCA Pet Health Insurance'></a>",
       "url":"<a href='https://www.behaviorsolutions.guru/'>https://www.behaviorsolutions.guru</a>",
-      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
+      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(504) 454-9081"
     },
 
     {
-      "facility":"VCA Healthy PAWS Medical Center",
+      "facility":"<a href='https://vcahospitals.com/'>VCA Healthy PAWS Medical Center</a>",
       "insurance": "<a href='https://www.healthypawspetinsurance.com/'><img src='/images/healthypaws.webp' alt='Healthy Paws Pet Insurance LLC'></a>",
        "url":"<a href='https://vcahospitals.com/'>https://vcahospitals.com</a>",
-      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
+      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(703) 754-4146"
     }
   ]
@@ -52,7 +52,7 @@ var ins = [
         return '<tr>'+
                 '<td><strong>Facility: </strong>' + ins.facility + '<br/>' +
                 '<td><strong>Insurance: </strong>' + ins.insurance + '<br/>' +
-                '<td><strong>Website: </strong>' + ins.url  + '<br/>' +
+                //'<td><strong>Website: </strong>' + ins.url  + '<br/>' +
                 '<td><strong>Appointments: </strong>' + ins.appointments + '<br/>' +
                 '<td><strong>Phone number: </strong>' + ins.phone + '<br/>' +
               '</tr>';
@@ -97,5 +97,3 @@ var ins = [
   document.addEventListener('reset', function(){
     render.preventDefault();
   })
-
- 

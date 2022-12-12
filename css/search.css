@@ -84,3 +84,6 @@ input[type="reset"]:hover
 {
     background: #406fd3;
 }
+td{
+    padding:2%;
+}

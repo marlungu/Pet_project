@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login/Sign Up</title>
+    <link rel="shortcut icon" href="dog.jpeg">
+    <link rel="stylesheet" type="text/css" href="bar.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+    <header>
+        <nav class = 'navbar'>
+            <ul>
+                <li><a href = "/First page/first.html">Home</a></li>
+                <li><a href = "/html/about.html">About</a></li>
+                <li><a href = "/First page/first.html"><img id = 'logo' src="/images/zoolylogo.png"/></a></li>
+                <li><a href = "/html/contact.html">Contact</a></li>
+                <li><a href = "/register.html">Login</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+
+  <main>
+<div id="body_header">
+  <h1>Log in</h1>
+</div>
+
+<form method="post" action="register.php">
+  <div class="input-group">
+    <label>Username*</label>
+    <input type="text" name="username" value="" required>
+  </div>
+  <div class="input-group">
+    <label>Email*</label>
+    <input type="email" name="email" value="" required>
+  </div>
+  <div class="input-group">
+    <label>Password*</label>
+    <input type="password" name="password_1" required>
+  </div>
+  <div class="input-group">
+    <label>Confirm password*</label>
+    <input type="password" name="password_2" required>
+  </div>
+  <div class="input-group">
+    <button type="submit">Sign in</button>
+  </div>
+  <p id="altOption">
+    continue as <a href="/html/results.html"><strong>guest</strong></a>
+  </p>
+</form>
+</main>
+<footer>
+    <ul id="footerNav">
+      <li><a href = "/First page/first.html">Home</a></li>
+      <li><a href = "/html/about.html">About</a></li>
+      <li><a href = "/html/contact.html">Contact</a></li>
+      <li><a href = "/register.html">Login</a></li>
+    </ul>
+    <p>Copyright <script>document.write(new Date().getFullYear());</script> &copy; Zooly</p>
+</footer>
+
+
+</body>
+</html>
