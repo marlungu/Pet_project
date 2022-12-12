@@ -38,6 +38,9 @@ p {
 #aboutFooter{
   color:white;
  }
+ .row{
+  width: 100%;
+ }
 .column {
   float: left;
   width: 25%;
@@ -50,10 +53,13 @@ p {
   margin: 10px;
   /* border-radius: 50%; */
 }
-/*
+
 .card img {
    border-radius: 50%; 
-}*/
+   padding: 20px;
+   width:50px;
+   height: 280px;
+}
  
 .title {
   color:#111;
