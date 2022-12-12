@@ -3,28 +3,28 @@ var ins = [
       "facility":"Banfield Pet Hospital",
       "insurance": "Spot Pet Health Insurance",
       "url":"https://www.banfield.com/en",
-      "appointments":"https://www.banfield.com/locations '<a href = /html/appointment.html>Make an appointment</a>'",
-      "phone":""
+      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
+      "phone":"(877) 656-7146"
     },
     {
       "facility":"Banfield Pet Hospital",
       "insurance": "Lemonade Pet Health Insurance",
       "url":"https://www.banfield.com/en",
-      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
-       "phone":""
+      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
+       "phone":"(877) 656-7146"
     },
     {
       "facility":"Animal Dentistry and Oral Surgery",
       "insurance": "ASPCA Pet Health Insurance",
       "url":"https://www.aspcapetinsurance.com/vet-locator/vet-clinic-details/?vetId=29708",
-      "appointments":"",
+      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(571) 209-1146"
     },
     {
       "facility":"Animal Medical Centers of Loudoun (Ashburn Farm Animal Hospital)",
       "insurance": "ASPCA Pet Health Insurance",
       "url":"https://www.aspcapetinsurance.com/vet-locator/vet-clinic-details/?vetId=24009",
-      "appointments":"<a href = /html/appointment.html>Make an appointment</a>",
+      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(703) 726-8784"
     },
 
@@ -32,7 +32,7 @@ var ins = [
       "facility":"Behavior Solutions for Pets - Dr. Leslie Sinn, DVM, DACVB",
       "insurance": "ASPCA Pet Health Insurance",
       "url":"https://www.aspcapetinsurance.com/vet-locator/vet-clinic-details/?vetId=35575",
-      "appointments":"",
+      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(504) 454-9081"
     },
 
@@ -40,7 +40,7 @@ var ins = [
       "facility":"VCA Healthy PAWS Medical Center",
       "insurance": "Healthy Paws Pet Insurance LLC",
        "url":"https://vcahospitals.com/healthy-paws",
-      "appointments":"https://vcahospitals.com/healthy-paws/book-an-appointment?utm_source=maps&utm_medium=organic&utm_campaign=book-appointment&utm_content=au695",
+      "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(703) 754-4146"
     }
   ]
