@@ -1,45 +1,45 @@
 var ins = [
     {
       "facility":"Banfield Pet Hospital",
-      "insurance": "Spot Pet Health Insurance",
-      "url":"https://www.banfield.com/en",
+      "insurance": "<a href = 'https://spotpetins.com/'><img src='/images/spot.svg' alt='Spot Pet Health Insurance'></a>",
+      "url":"<a href='https://www.banfield.com/en'>https://www.banfield.com/en</a>",
       "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(877) 656-7146"
     },
     {
       "facility":"Banfield Pet Hospital",
-      "insurance": "Lemonade Pet Health Insurance",
-      "url":"https://www.banfield.com/en",
+      "insurance": " <a href='https://www.lemonade.com/pet?utm_source=google-search-brand_pet_us_bau_prospect&utm_medium=ua&utm_campaign=14137430090&utm_term=127108543082_lemonade%20pet%20insurance_c&utm_content=631797340744'><img src='/images/lemonade.svg' alt='Lemonade Pet Health Insurance'></a>",
+      "url":"<a href='https://www.banfield.com/en'>https://www.banfield.com/en</a>",
       "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
        "phone":"(877) 656-7146"
     },
     {
       "facility":"Animal Dentistry and Oral Surgery",
-      "insurance": "ASPCA Pet Health Insurance",
-      "url":"https://www.aspcapetinsurance.com/vet-locator/vet-clinic-details/?vetId=29708",
+      "insurance": "<a href='https://www.aspcapetinsurance.com/'><img src='/images/aspca.svg' alt='ASPCA Pet Health Insurance'></a>",
+      "url":"<a href='https://animaldentalspecialist.com/'>https://animaldentalspecialist.com</a>",
       "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(571) 209-1146"
     },
     {
-      "facility":"Animal Medical Centers of Loudoun (Ashburn Farm Animal Hospital)",
-      "insurance": "ASPCA Pet Health Insurance",
-      "url":"https://www.aspcapetinsurance.com/vet-locator/vet-clinic-details/?vetId=24009",
+      "facility":"Animal Medical Centers of Loudoun",
+      "insurance": "<a href='https://www.aspcapetinsurance.com/'><img src='/images/aspca.svg' alt='ASPCA Pet Health Insurance'></a>",
+      "url":"<a href='https://www.loudounvet.com/'>https://www.loudounvet.com</a>",
       "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(703) 726-8784"
     },
 
     {
-      "facility":"Behavior Solutions for Pets - Dr. Leslie Sinn, DVM, DACVB",
-      "insurance": "ASPCA Pet Health Insurance",
-      "url":"https://www.aspcapetinsurance.com/vet-locator/vet-clinic-details/?vetId=35575",
+      "facility":"Behavior Solutions for Pets",
+      "insurance": "<a href='https://www.aspcapetinsurance.com/'><img src='/images/aspca.svg' alt='ASPCA Pet Health Insurance'></a>",
+      "url":"<a href='https://www.behaviorsolutions.guru/'>https://www.behaviorsolutions.guru</a>",
       "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(504) 454-9081"
     },
 
     {
       "facility":"VCA Healthy PAWS Medical Center",
-      "insurance": "Healthy Paws Pet Insurance LLC",
-       "url":"https://vcahospitals.com/healthy-paws",
+      "insurance": "<a href='https://www.healthypawspetinsurance.com/'><img src='/images/healthypaws.webp' alt='Healthy Paws Pet Insurance LLC'></a>",
+       "url":"<a href='https://vcahospitals.com/'>https://vcahospitals.com</a>",
       "appointments":"<br><a href = /html/appointment.html>Make an appointment</a>",
       "phone":"(703) 754-4146"
     }
